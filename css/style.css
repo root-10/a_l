@@ -1,0 +1,264 @@
+/* Inicio de estilos generales (solamente se están usando algunos) */
+@font-face {
+    font-family: 'quicksand-regular';
+    src: url('./assets/font/quicksand/Quicksand-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'quicksand-light';
+    src: url('./assets/font/quicksand/Quicksand-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'quicksand-medium';
+    src: url('./assets/font/quicksand/Quicksand-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'quicksand-semibold';
+    src: url('./assets/font/quicksand/Quicksand-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'quicksand-bold';
+    src: url('./assets/font/quicksand/Quicksand-Bold.ttf') format('truetype');
+}
+* {
+    font-family: 'quicksand-light';
+    color: #363026;
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    background: #FAFAFA;
+}
+.row {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.row-vertical {
+    flex-direction: column;
+}
+.center-in-row {
+    justify-content: center;
+}
+.around-in-row {
+    justify-content: space-around;
+}
+.align-center {
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+.full-width {
+    width: 100%;
+}
+.full-height {
+    height: 100%;
+}
+.center-text {
+    text-align: center;
+}
+.font-regular {
+    font-family: 'quicksand-regular';
+}
+.font-medium {
+    font-family: 'quicksand-medium';
+}
+.font-semibold {
+    font-family: 'quicksand-semibold';
+}
+.font-bold {
+    font-family: 'quicksand-bold';
+}
+.bluel {
+    background: #2AABE2;
+}
+.bpurple {
+    background: #2E358F;
+}
+.purp {
+    background: #90288D;
+}
+.purplepink {
+    background: #EA0A8B;
+}
+.orang {
+    background: #EE4223;
+}
+.orangeyellow {
+    background: #F5821F;
+}
+.yellow {
+    background: #E6B820;
+}
+.lgreen {
+    background: #7FB541;
+}
+.green {
+    background: #009849;
+}
+/* Fin de estilos generales */
+
+/* Inicio de loader puntos rebotantes */
+.loader-dots-bounce {
+    margin: auto;
+    height: 80px;
+}
+.circle {
+    position: relative;
+    height: min(4vw, 15px);
+    width: min(4vw, 15px);
+    border-radius: min(4vw, 15px);
+    margin: .5px;
+    top: 50px;
+}
+.bluel {
+    animation: bounce .5s infinite linear;
+    -moz-animation: bounce .5s infinite linear;
+    -o-animation: bounce .5s infinite linear;
+    -webkit-animation: bounce .5s infinite linear;
+    animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+.bpurple {
+    animation: bounce .5s infinite linear;
+    -moz-animation: bounce .5s infinite linear;
+    -o-animation: bounce .5s infinite linear;
+    -webkit-animation: bounce .5s infinite linear;
+    animation-delay: 62.5ms;
+    -moz-animation-delay: 62.5ms;
+    -o-animation-delay: 62.5ms;
+    -webkit-animation-delay: 62.5ms;
+}
+.purp {
+    animation: bounce .5s infinite linear;
+    -moz-animation: bounce .5s infinite linear;
+    -o-animation: bounce .5s infinite linear;
+    -webkit-animation: bounce .5s infinite linear;
+    animation-delay: 125ms;
+    -moz-animation-delay: 125ms;
+    -o-animation-delay: 125ms;
+    -webkit-animation-delay: 125ms;
+}
+.purplepink {
+    animation: bounce .5s infinite linear;
+    -moz-animation: bounce .5s infinite linear;
+    -o-animation: bounce .5s infinite linear;
+    -webkit-animation: bounce .5s infinite linear;
+    animation-delay: 187.5ms;
+    -moz-animation-delay: 187.5ms;
+    -o-animation-delay: 187.5ms;
+    -webkit-animation-delay: 187.5ms;
+}
+.orang {
+    animation: bounce .5s infinite linear;
+    -moz-animation: bounce .5s infinite linear;
+    -o-animation: bounce .5s infinite linear;
+    -webkit-animation: bounce .5s infinite linear;
+    animation-delay: 250ms;
+    -moz-animation-delay: 250ms;
+    -o-animation-delay: 250ms;
+    -webkit-animation-delay: 250ms;
+}
+.orangeyellow {
+    animation: bounce .5s infinite linear;
+    -moz-animation: bounce .5s infinite linear;
+    -o-animation: bounce .5s infinite linear;
+    -webkit-animation: bounce .5s infinite linear;
+    animation-delay: 312.5ms;
+    -moz-animation-delay: 312.5ms;
+    -o-animation-delay: 312.5ms;
+    -webkit-animation-delay: 312.5ms;
+}
+.yellow {
+    animation: bounce .5s infinite linear;
+    -moz-animation: bounce .5s infinite linear;
+    -o-animation: bounce .5s infinite linear;
+    -webkit-animation: bounce .5s infinite linear;
+    animation-delay: 375ms;
+    -moz-animation-delay: 375ms;
+    -o-animation-delay: 375ms;
+    -webkit-animation-delay: 375ms;
+}
+.lgreen {
+    animation: bounce .5s infinite linear;
+    -moz-animation: bounce .5s infinite linear;
+    -o-animation: bounce .5s infinite linear;
+    -webkit-animation: bounce .5s infinite linear;
+    animation-delay: 437.5ms;
+    -moz-animation-delay: 437.5ms;
+    -o-animation-delay: 437.5ms;
+    -webkit-animation-delay: 437.5ms;
+}
+.green {
+    animation: bounce .5s infinite linear;
+    -moz-animation: bounce .5s infinite linear;
+    -o-animation: bounce .5s infinite linear;
+    -webkit-animation: bounce .5s infinite linear;
+    animation-delay: 500ms;
+    -moz-animation-delay: 500ms;
+    -o-animation-delay: 500ms;
+    -webkit-animation-delay: 500ms;
+}
+@keyframes bounce {
+    0% { top: 50px; }
+    25% { top: 30px }
+    50% { top: 10px }
+    75% { top: 30px }
+    100% { top: 50px }
+}
+@-o-keyframes bounce {
+    0% { top: 50px }
+    25% { top: 30px }
+    50% { top: 10px }
+    75% { top: 30px }
+    100% { top: 50px }
+}
+@-moz-keyframes bounce {
+    0% { top: 50px }
+    25% { top: 30px }
+    50% { top: 10px }
+    75% { top: 30px }
+    100% { top: 50px }
+}
+@-webkit-keyframes bounce {
+    0% { top: 50px }
+    25% { top: 30px }
+    50% { top: 10px }
+    75% { top: 30px }
+    100% { top: 50px }
+}
+/* Fin de loader puntos rebotantes */
+
+/* Inicio de loader giratorio */
+.loader-spinner {
+    width: min(6vh, 40px);
+    height: min(6vh, 40px);
+    display: block;
+    border: min(1vh, 5px) solid #D2D2D2;
+    border-radius: 50%;
+    border-top-color: #2aabe2;
+    transition: linear;
+    animation: 1s spin infinite ease-in-out;
+    margin: 0 auto;
+}
+@keyframes spin {
+    to { transform: rotate(360deg) }
+    9% { border-top-color: #2e358f }
+    18% { border-top-color: #90288d }
+    27% { border-top-color: #ea0a8b }
+    36% { border-top-color: #ee4223 }
+    45% { border-top-color: #f5821f }
+    54% { border-top-color: #e6b820 }
+    63% { border-top-color: #7fb541 }
+    72% { border-top-color: #009849 }
+    81% { border-top-color: #00a89c }
+    90% { border-top-color: #2aabe2 }
+}
+/* Fin de loader giratorio */
